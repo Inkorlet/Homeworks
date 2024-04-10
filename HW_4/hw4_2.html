@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .first{
+        height: 460px;
+        width: 400px;
+        border: 2px solid #bdbdbd;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      }
+      .second{
+          height: 60px;
+          width: 400px;
+          border: 2px solid #bdbdbd;
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          font-weight: 600;
+      }
+      .username, .password{
+          text-overflow: ellipsis;
+          width: 300px;
+          font-size: 16px;
+          padding: 10px;
+          background-color: #f5f4f4;
+          border: 2px solid #bdbdbd;
+          border-radius: 5px;
+      }
+      .username{
+          margin-top: 37px;
+      }
+      .password{
+          margin-top: 7px;
+      }
+      .img1{
+          width: 200px;
+          margin-top: 20px;
+      }
+      button{
+          width: 323.2px;
+          height: 45px;
+          margin-top: 16px;
+          background-color: #68b5fa;
+          border: none;
+          border-radius: 10px;
+          color: white;
+          font-size: 20px;
+          font-weight: 600;
+      }
+      .abo{
+          font-size: 16px;
+          font-weight: 600;
+          color: #6e6e6e;
+          margin-top: 20px;
+
+      }
+      .facebook{
+          display: flex;
+          margin-top: 1px;
+      }
+      .image{
+          width: 32px;
+          height: 32px;
+      }
+      .a_facebook{
+          padding-top: 8px;
+          font-size: 16px;
+          text-decoration: none;
+          font-weight: 600;
+          color: #375185;
+      }
+      .a_zab{
+          margin-top: 20px;
+          text-decoration: none;
+          color: #375185;
+      }
+      .a_reg{
+          text-decoration: none;
+          color: #119cf6;
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <img src="logo.png" class="img1" alt="">
+        <input type="text" class="username" name="username" placeholder="Номер телефону, ім'я користувача або email">
+        <input type="password" class="password" name="password" placeholder="Пароль">
+        <button>Увійти</button>
+        <p class="abo">АБО</p>
+        <div class="facebook">
+        <img src="facebook.png" class="image" alt="">
+        <a href="#" class="a_facebook">Увійти через Facebook</a>
+        </div>
+        <a href="#" class="a_zab">Забули пароль?</a>
+
+    </div>
+    <div class="second">
+        <p class="p_second">Не маєте облікового запису? <a href="#" class="a_reg">Зареєструйтеся</a></p>
+    </div>
+
+
+</body>
+</html>
