@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+.link{
+    height: 10vh;
+    display: flex;
+}
+.link1{
+    height: 100%;
+    width: 10%;
+    border: 2px solid;
+}
+.link2{
+    height: 100%;
+    width: 10%;
+    border: 2px solid;
+}
+.link3{
+    height: 100%;
+    width: 10%;
+    border: 2px solid;
+}
+.link4{
+    height: 100%;
+    width: 10%;
+    border: 2px solid;
+}
+.banner{
+    height: 40vh;
+    border: 2px solid;
+}
+.article{
+    height: 40vh;
+}
+.article12{
+    height: 20vh;
+    display: flex;
+}
+.article1{
+    height: 100%;
+    width: 50%;
+    border: 2px solid;
+}
+.article2{
+    height: 100%;
+    width: 50%;
+    border: 2px solid;
+}
+.article34{
+    height: 20vh;
+    display: flex;
+}
+.article3{
+    height: 100%;
+    width: 50%;
+    border: 2px solid;
+}
+.article4{
+    height: 100%;
+    width: 50%;
+    border: 2px solid;
+}
+.footer{
+    height: 10vh;
+    border: 2px solid;
+}

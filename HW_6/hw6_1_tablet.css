@@ -1,0 +1,13 @@
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .article{
+        display: flex;
+    }
+    .article12 {
+        height: 100%;
+        width: 50%;
+    }
+    .article34{
+        height: 100%;
+        width: 50%;
+    }
+}

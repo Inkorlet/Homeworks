@@ -1,0 +1,36 @@
+@media screen and (max-width: 600px) {
+    .link{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .link1{
+        width: 100%;
+    }
+    .link2{
+        width: 100%;
+    }
+    .link3{
+        width: 100%;
+    }
+    .link4{
+        width: 100%;
+    }
+    .article12{
+        flex-direction: column;
+    }
+    .article1{
+        width: 100%;
+    }
+    .article2{
+        width: 100%;
+    }
+    .article3{
+        width: 100%;
+    }
+    .article4{
+        width: 100%;
+    }
+    .article34{
+        flex-direction: column;
+    }
+}

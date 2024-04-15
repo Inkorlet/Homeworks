@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.first{
+    height: 30vh;
+    border: 2px solid;
+}
+.second{
+    height: 70vh;
+    display: flex;
+}
+.second_1{
+    height: 100%;
+    width: 80%;
+    border: 2px solid;
+}
+.second_2{
+    height: 100%;
+    width: 20%;
+    border: 2px solid;
+}
